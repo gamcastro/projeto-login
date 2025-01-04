@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: "Roboto", serif;
+    --cor-principal: #013F88;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+
+}
+
+.intro {
+    width: 60%;
+    height: 100vh;
+    background-image: url("../../../public/assets/images/fundo-login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro h1 {
+    color: #FFFFFF;
+    padding-top: 30%;
+    padding-left: 10%;
+    font-family: var(--fonte-principal);
+    font-size: 3rem;
+}
+
+.intro p {
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    padding-left: 10%;
+}
+
+.formulario {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+
+
+}
+
+h2 {
+    /* text-align: center; */
+
+    text-align: left;
+    width: 100%;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+}
+
+.formulario__input {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.formulario__input input {
+    border: 1px solid var(--cor-principal);
+    background-color: transparent;
+    /* padding: 10px 40px ; */
+    /* border-radius: 10px; */
+    width: 60%;
+    height: 35px;
+    font-size: 18px;
+    padding-right: 40px;
+
+}
+
+.formulario__input input::placeholder {
+    opacity: 0.3;
+}
+
+form {
+    width: 100%;
+}
+
+.formulario__input__esqueceu {
+    font-family: var(--fonte-principal);
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.formulario__input label {
+    font-family: var(--fonte-principal);
+}
+
+.formulario__input button {
+    background-color: var(--cor-principal);
+    color: #FFFFFF;
+    width: 60%;
+    height: 35px;
+
+}
+
+.formulario__input button:hover {
+    background-color: #008CBA;
+}
+
+.formulario__input__password {
+    position: relative ;
+}
+
+#togglePassword {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    padding: 0;
+}
+
+#togglePassword i {
+    font-size: 18px;
+    color: #555;
+}

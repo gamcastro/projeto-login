@@ -16,7 +16,7 @@ body {
 
 main {
     display: flex;
-    gap: 50px;
+    /* gap: 50px; */
 
 }
 
@@ -45,83 +45,58 @@ main {
 .formulario {
     width: 40%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     /* height: 100vh; */
     flex-direction: column;
-
+    border: 1px solid;
 
 }
 
-h2 {
-    /* text-align: center; */
-
-    text-align: left;
-    width: 100%;
-    font-family: var(--fonte-principal);
-    color: var(--cor-principal);
+.formulario h2 {
+    margin-left: 40%;
+    margin-top: 10px;
 }
 
-.formulario__input {
-    display: flex;
-    flex-direction: column;
-   
+.formulario__interno {
+    margin: 0 10%;
 }
-
-.formulario__input input {
-    border: 1px solid var(--cor-principal);
-    background-color: transparent;
-    /* padding: 10px 40px ; */
-    /* border-radius: 10px; */
-    width: 60%;
+.formulario input {
+    width: 90%;
     height: 35px;
-    font-size: 18px;
-    padding-right: 40px;
+}
+
+.formulario__botao {
+   
+    background-color: var(--cor-principal);
+    color: #FFFFFF;
+    width: 40%;
+    height: 35px;
+    text-align: center;
+    margin-left: 30%;
+    
 
 }
 
-.formulario__input input::placeholder {
-    opacity: 0.3;
-}
-
-form {
-    width: 100%;
+.formulario__botao:hover {
+    background-color: #008CBA;
+    
 }
 
 .formulario__input__esqueceu {
-    font-family: var(--fonte-principal);
-    margin-top: 10px;
-    font-size: 14px;
-    margin-left: 45%;
-    margin-bottom: 20px;
-    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin: 2% 10%;
 }
 
-.formulario__input label {
-    font-family: var(--fonte-principal);
-}
 
-.formulario__input button {
-    background-color: var(--cor-principal);
-    color: #FFFFFF;
-    width: 60%;
-    height: 35px;
-
-}
-
-.formulario__input button:hover {
-    background-color: #008CBA;
-}
-
-.formulario__input__password {
-    position: relative ;
-}
 
 #togglePassword {
     background: none;
     border: none;
-    position: absolute;
-    right: 40px;
+     position: absolute;
+    right: 10px; 
+    
     cursor: pointer;
     padding: 0;
 }
@@ -129,4 +104,8 @@ form {
 #togglePassword i {
     font-size: 18px;
     color: #555;
+}
+
+input {
+    display: block;
 }

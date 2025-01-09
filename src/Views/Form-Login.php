@@ -29,24 +29,31 @@
             <h2>Acesso</h2>
             <br>
             <br>
-            <form action="" method="post">
+            <div class="formulario__interno">
+                <form action="" method="post">
 
-                <div class="formulario__input">
+
                     <label for="usuario">Usuário:</label>
                     <input type="text" id="usuario" name="usuario" placeholder="Digite aqui seu cpf">
-                    <br>
                     <label for="password">Senha:</label>
-                    <div class="formulario__input__password">
 
-                        <input type="password" name="password" id="password" placeholder="Digite aqui sua senha">
-                        <button type="button" id="togglePassword">
+
+                    <input type="password" name="password" id="password" placeholder="Digite aqui sua senha">
+                    <!-- <button type="button" id="togglePassword">
                             <i id="icon" class="fa fa-eye"></i>
-                        </button>
-                    </div>
+                        </button> -->
+
                     <a href="" class="formulario__input__esqueceu">Esqueçeu a senha?</a>
-                    <button>Login</button>
-                </div>
-            </form>
+
+
+
+                    <button class="formulario__botao">Login</button>
+
+
+                </form>
+            </div>
+
+
 
 
             </div>

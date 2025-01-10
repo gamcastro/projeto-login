@@ -109,3 +109,13 @@ main {
 input {
     display: block;
 }
+
+@media (max-width: 470px) {
+    .intro {
+        display: none ;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+}

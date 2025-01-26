@@ -39,9 +39,9 @@
 
 
                     <input type="password" name="password" id="password" placeholder="Digite aqui sua senha">
-                    <!-- <button type="button" id="togglePassword">
+                   <button type="button" id="togglePassword">
                             <i id="icon" class="fa fa-eye"></i>
-                        </button> -->
+                        </button> 
 
                     <a href="" class="formulario__input__esqueceu">Esqueçeu a senha?</a>
 

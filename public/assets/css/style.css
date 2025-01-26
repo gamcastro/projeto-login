@@ -64,6 +64,7 @@ main {
 .formulario input {
     width: 90%;
     height: 35px;
+    margin-bottom: 10px;
 }
 
 .formulario__botao {
@@ -94,7 +95,7 @@ main {
 #togglePassword {
     background: none;
     border: none;
-     position: absolute;
+     /* position: absolute; */
     right: 10px; 
     
     cursor: pointer;
@@ -110,7 +111,7 @@ input {
     display: block;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 600px) {
    main {
     flex-direction: column ;
     height: 100vh;

@@ -59,10 +59,10 @@ main {
 }
 
 .formulario__interno {
-    margin: 0 10%;
+    margin: 0 8%;
 }
 .formulario input {
-    width: 90%;
+    width: 85%;
     height: 35px;
     margin-bottom: 10px;
 }
@@ -79,6 +79,10 @@ main {
 
 }
 
+.formulario__interno__password {
+    position: relative;
+}
+
 .formulario__botao:hover {
     background-color: #008CBA;
     
@@ -87,7 +91,7 @@ main {
 .formulario__input__esqueceu {
     display: block;
     text-align: right;
-    margin: 2% 10%;
+    margin: 2% 13%;
 }
 
 
@@ -95,9 +99,9 @@ main {
 #togglePassword {
     background: none;
     border: none;
-     /* position: absolute; */
-    right: 10px; 
-    
+    position: absolute; 
+    top : 30% ;
+    right: 18%;
     cursor: pointer;
     padding: 0;
 }

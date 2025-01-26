@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../public/assets/css/style.css">
+    <link rel="stylesheet" href="../../../public/assets/css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Login</title>
 
@@ -37,12 +37,12 @@
                     <input type="text" id="usuario" name="usuario" placeholder="Digite aqui seu cpf">
                     <label for="password">Senha:</label>
 
-
-                    <input type="password" name="password" id="password" placeholder="Digite aqui sua senha">
-                   <button type="button" id="togglePassword">
+                    <div class="formulario__interno__password">
+                        <input type="password" name="password" id="password" placeholder="Digite aqui sua senha">
+                        <button type="button" id="togglePassword">
                             <i id="icon" class="fa fa-eye"></i>
-                        </button> 
-
+                        </button>
+                    </div>
                     <a href="" class="formulario__input__esqueceu">Esqueçeu a senha?</a>
 
 
